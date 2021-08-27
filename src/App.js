@@ -1,9 +1,13 @@
-import './App.css';
+import React from "react";
+import TodoItem from "./TodoItem";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      Test
+    <div className="todo-list">
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }
